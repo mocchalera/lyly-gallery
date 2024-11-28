@@ -1,0 +1,11 @@
+id,name,category,size,color,imageUrl,description,available
+1,クラシックウェディングドレス,ウェディング,M,白,https://example.com/images/wedding1.jpg,上品な刺繍が施された純白のウェディングドレス。バックスタイルのリボンがエガントな印象を演出します。,TRUE
+2,グラデーションカラードレス,パーティー,S,ピンク,https://example.com/images/party1.jpg,淡いピンクのグラデーションが美しいカラードレス。ふんわりとしたチュールスカートが特徴です。,TRUE
+3,赤打掛,和装,L,赤,https://example.com/images/japanese1.jpg,鶴と松の刺繍が施された伝統的な赤の打掛。格調高い雰囲気を演出します。,TRUE
+4,白無垢,和装,M,白,https://example.com/images/japanese2.jpg,正統派の純白の白無垢。丁寧な縫製と上質な生地で仕立てられています。,FALSE
+5,マーメイドドレス,ウェディング,S,アイボリー,https://example.com/images/wedding2.jpg,体のラインを美しく見せるマーメイドライン。バックスタイルは深めのVカットです。,TRUE
+6,引き振袖,和装,M,赤,https://example.com/images/japanese3.jpg,桜と鶴の柄が華やかな引き振袖。お色直しや披露宴にぴったりです。,TRUE
+7,Aラインドレス,ウェディング,L,白,https://example.com/images/wedding3.jpg,シンプルでエレガントなAラインドレス。どんな体型の方にも似合うベーシックなデザインです。,TRUE
+8,青打掛,和装,S,青,https://example.com/images/japanese4.jpg,青地に金糸で施された鳳凰の刺繍が特徴的な色打掛。モダンな印象を与えます。,TRUE
+9,タキシード,タキシード,M,黒,https://example.com/images/tuxedo1.jpg,シックな黒のタキシード。サテン地の襟元が上品な印象を与えます。,TRUE
+10,プリンセスドレス,ウェディング,M,白,https://example.com/images/wedding4.jpg,ふんわりとしたボリュームスカートが特徴のプリンセスライン。ビジューがあしらわれた上品なデザインです。,TRUE 
