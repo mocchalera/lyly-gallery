@@ -21,13 +21,8 @@ export default function Home({ costumes: initialCostumes }: Props) {
   const [costumes] = useState<Costume[]>(initialCostumes);
 
   const categories = useMemo(() => {
-    const categorySet = new Set(['all']);
-    costumes.forEach(costume => {
-      if (costume.category) {
-        categorySet.add(costume.category);
-      }
-    });
-    return Array.from(categorySet);
+    const uniqueCategories = Array.from(new Set(costumes.map(c => c.category || '')));
+    return ['all', ...uniqueCategories.filter(c => c !== '')];
   }, [costumes]);
 
   const filteredAndSortedCostumes = useMemo(() => {
