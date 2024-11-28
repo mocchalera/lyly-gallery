@@ -20,7 +20,15 @@ export default function Home({ costumes: initialCostumes }: Props) {
   const [searchQuery, setSearchQuery] = useState('');
   const [costumes] = useState<Costume[]>(initialCostumes);
 
-  const categories = ['all', ...new Set(costumes.map(c => c.category))];
+  const categories = useMemo(() => {
+    const categorySet = new Set(['all']);
+    costumes.forEach(costume => {
+      if (costume.category) {
+        categorySet.add(costume.category);
+      }
+    });
+    return Array.from(categorySet);
+  }, [costumes]);
 
   const filteredAndSortedCostumes = useMemo(() => {
     let result = [...costumes];
